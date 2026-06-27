@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/preferences.css">
+    <title>Préférences</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img src="../images/logo.png" alt="Logo">
+            <p>Promo EDWM2605FT</p>
+            <div>
+                <a href="index.html">Accueil</a>
+                <a href="preferences.html">Préférences</a>
+                <a href="carte.html">Carte</a>
+                <a href="informations.html">Informations</a>
+            </div>
+        </nav>
+    </header>
+
+    <main> 
+    <section>
+        <h2>Préférences du site</h2>
+        <form>
+            <div class="ligne">
+                <label for="theme">Thème du site</label>
+                <select name="theme" id="theme">
+                    <option value="light" selected>Clair</option>
+                    <option value="dark">Sombre</option>
+                </select>
+            </div>
+            <div class="ligne">
+                <label>Format d'affichage de la liste des apprenants</label>
+                <div class="radios">
+                    <div radio-ligne>
+                        <input type="radio" name="typeAffichage" value="liste" id="liste" checked>
+                        <label for="liste">Liste</label>
+                    </div>
+                    <div radio-ligne>
+                        <input type="radio" name="typeAffichage" value="cartes" id="cartes">
+                        <label for="cartes">Cartes</label>
+                    </div>
+                </div>
+            </div>
+            <div class="boutons">
+                <a href="index.html">Retour à la page d'Accueil</a>
+                <input type="submit" id="save" value="Enregistrer">
+            </div>
+        </form>
+    </section>
+</main>
+
+    <footer>
+        
+    </footer>
+
+    <script src="../scripts/preferences.js"></script>
+    <script src="../scripts/theme.js"></script>
+
+</body>
+</html>

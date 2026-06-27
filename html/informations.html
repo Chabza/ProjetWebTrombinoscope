@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/informations.css">
+    <title>Informations</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img src="../images/logo.png" alt="Logo">
+            <p>Promo EDWM2605FT</p>
+            <div>
+                <a href="index.html">Accueil</a>
+                <a href="preferences.html">Préférences</a>
+                <a href="carte.html">Carte</a>
+                <a href="informations.html">Informations</a>
+            </div>
+        </nav>
+    </header>
+
+    <main> 
+        <section class="titre">
+            <h1>* INFORMATIONS GENERALES *</h1> 
+            <h3 id="infoDates">Formation du 04/05/2026 au 23/10/2026</h3>
+            <h4 id="infoNbApprenants">Nombre d'apprenants : 23</h4>
+        </section>
+        <section class="section">
+            <div class="container">
+                <p class="para">Description</p>
+                <div class="bloc">
+                    <p id="infoDescription">La promotion EDWM2605FT est une formation Développeur Web et Web Mobile, homologuée par l'État niveau 5 (Bac+2), dispensée en distanciel par l'ENI École Informatique. D'une durée de 8 mois dont 8 semaines en entreprise, elle réunit 23 apprenants aux profils variés, répartis dans différentes villes de France.</p>
+                </div>
+            </div>
+            <div class="container">
+                <p class="para">Liens utiles</p>
+                <div class="bloc">
+                    <ul>
+                        <li><a href="https://www.eni-ecole.fr/">ENI École Informatique</a></li>
+                        <li><a href="https://theogoedert.notion.site/Atelier-Live-Coding-Strudel-2b83324cc3d780598670e223c9313ea6">Atelier live coding Strudel</a></li>
+                        <li><a href="https://developer.mozilla.org/fr/">Documentation MDN</a></li>
+                        <li><a href="https://www.codewars.com/">Codewars</a></li>
+                        <li><a href="https://www.youtube.com/@Micode">Chaîne YouTube Micode</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="pageAccueil">
+        <a href="index.html" class="retour">Retour à la page d'accueil</a>
+        </div>
+        
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    
+    <script src="../scripts/theme.js"></script>
+    <script>
+        // Tâche 3.2 : injection des données de la promo depuis le JSON
+        fetch("../data/promo.json")
+            .then(response => response.json())
+            .then(data => {
+                let p = data.promo
+                document.getElementById("infoDates").textContent =
+                    "Formation du " + p.dateDebut + " au " + p.dateFin
+                document.getElementById("infoNbApprenants").textContent =
+                    "Nombre d'apprenants : " + p.nbApprenants
+                document.getElementById("infoDescription").textContent = p.description
+            })
+    </script>
+
+</body>
+</html>

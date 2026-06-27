@@ -1,0 +1,95 @@
+table {
+    background-color: #6f859a;
+    margin-left: 20px;
+    width: 100%;
+    border-radius: 4px;
+    padding-bottom: 10px;
+}
+
+tbody {
+    background-color: #d4a48b;
+    display: block;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+thead tr, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 45px;
+    padding-bottom: 30px;
+}
+
+fieldset {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border: none;
+    gap: 10px;
+}
+
+td {
+    padding: 10px;
+    outline: 3px solid #6f859a;
+}
+
+fieldset legend {
+    float: left;
+    font-weight: bold;
+}
+
+tbody button {
+    background-color: #26495c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.radio { 
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.tab {
+    width: 55%;
+    margin-left: 2%;
+    padding-bottom: 2%;
+}
+
+td:last-child {
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #d6d6cc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e5e5dc;
+}
+
+tbody button:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .tab {
+        width: 100%;
+        margin-left: 0;
+    }
+    table {
+        margin-left: 0;
+    }
+    td, th {
+        font-size: 0.75em;
+    }
+}

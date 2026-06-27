@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/accueil.css">
+    <link rel="stylesheet" href="../styles/ficheCarte.css">
+    <title>Accueil</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img src="../images/logo.png" alt="Logo ENI Ecole Informatique">
+            <p id="nomPromo">Promo EDWM2605FT</p>
+            <div>
+                <a href="index.html">Accueil</a>
+                <a href="preferences.html">Préférences</a>
+                <a href="carte.html">Carte</a>
+                <a href="informations.html">Informations</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="radio">
+            <fieldset >
+                <legend>Type d'affichage</legend>
+                <input type="radio" name="typeAffichage" id="liste" value="liste" checked>
+                <label for="liste">Liste</label>
+                <input type="radio" name="typeAffichage" id="cartes" value="cartes">
+                <label for="cartes">Cartes</label>
+            </fieldset>
+        </div>
+
+    <h2>Liste des apprenants</h2>
+
+        <div class="tab" id="tableau">
+            <table>
+            <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Prénom</th>
+                        <th>Ville</th>
+                        <th>Detail</th>
+                    </tr>
+            </thead>
+            <tbody id="listeApprenants">
+
+            </tbody>
+            </table>
+        </div>
+
+        <div id="listeCartes">
+
+        </div>
+
+    </main>
+    
+    <footer>
+    </footer>
+
+    <!-- Tâche 3.1 : Modale détail apprenant -->
+    <div id="modale" role="dialog" aria-modal="true" aria-labelledby="modalNom">
+        <div class="modale-contenu">
+            <button id="modalFermer" aria-label="Fermer">&times;</button>
+            <img id="modalAvatar" src="" alt="" />
+            <div class="modale-infos">
+                <p><strong>Nom :</strong> <span id="modalNom"></span></p>
+                <p><strong>Prénom :</strong> <span id="modalPrenom"></span></p>
+                <p><strong>Ville :</strong> <span id="modalVille"></span></p>
+                <p><strong>Anecdotes :</strong></p>
+                <p id="modalAnecdotes"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/theme.js"></script>
+
+</body>
+</html>

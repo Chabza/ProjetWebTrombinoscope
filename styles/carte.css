@@ -1,0 +1,38 @@
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bouton {
+    text-decoration: none;
+    background-color: #26495c;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+.pageAccueil {
+    text-align: center;
+    padding: 4vh;
+    margin-top: 40px;
+}
+
+.bouton:hover {
+    opacity: 0.8;
+}
+
+#map {
+    width: 50%;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    #map {
+        width: 90%;
+        height: 50vh;
+    }
+}

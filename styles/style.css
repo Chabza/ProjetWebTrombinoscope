@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header {
+    background-color: white;
+}
+
+body {
+    background: linear-gradient(0deg,rgba(125, 150, 173, 1) 0%, rgba(229, 229, 220, 1) 100%);
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+nav img {
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    opacity: 0.8;
+    width: 5vw;
+}
+
+nav a {
+    background-color: #26495c;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    color: white;
+    padding: 1vw 1.5vw;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-right: 0.5vw;
+}
+
+nav p {
+    margin: auto;
+    font-size: 2vw;
+    font-weight: bold;
+    color: #26495c;
+    font-family: "Black Ops One", system-ui;
+}
+
+nav div {
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+}
+
+nav a:hover {
+    opacity: 0.8;
+}
+
+body.dark {
+    background: rgb(55, 53, 53); 
+    color: white;
+}
+
+body.dark header{
+    background-color: #121215c7;
+    color: white;
+}
+
+body.dark p {
+    color: rgb(209, 205, 205);
+}
+
+body.dark nav a {
+    background-color: #233855;
+}
+
+body.dark a {
+    background-color: transparent;
+}
+
+body.dark nav p {
+    color: rgb(209, 205, 205)
+}
+
+body.dark .radio {
+    background-color: rgb(55, 53, 53);
+    color: rgb(209, 205, 205);
+}
+
+body.dark h2 {
+    color: rgb(209, 205, 205);
+}
+
+body.dark .tab {
+    background-color: rgb(55, 53, 53);
+}
+
+body.dark .bloc {
+    background-color: rgb(44, 44, 44);
+}
+
+body.dark .carte button {
+    background-color: rgb(44, 44, 44);
+}
+
+body.dark .bloc p {
+    color: white;
+}
+
+body.dark .retour {
+    background-color: #233855;
+    color: rgb(209, 205, 205)
+}
+
+body.dark .carte {
+    background-color: #233855;
+}
+
+body.dark table {
+    background-color: #233855;
+    color: rgb(209, 205, 205); 
+}
+
+body.dark tbody {
+    background-color: #333352c7;
+}
+
+body.dark td {
+    outline: 3px solid #233855;
+}
+
+body.dark tbody button {
+    background-color: #233855;
+    color: rgb(209, 205, 205); 
+}
+
+body.dark tbody tr:nth-child(odd) {
+    background-color: rgb(70, 69, 69);
+}
+
+body.dark tbody tr:nth-child(even) {
+    background-color: rgb(55, 53, 53);
+}
+
+body.dark .boutons a {
+    background-color: #233855;
+    color: rgb(209, 205, 205) 
+}
+
+body.dark .boutons input {
+   background-color: #233855;
+    color: rgb(209, 205, 205) 
+}
+
+body.dark h1 {
+    color: rgb(209, 205, 205)
+}
+
+body.dark h3 {
+    color: rgb(209, 205, 205)
+}
+
+body.dark h4 {
+    color: rgb(209, 205, 205)
+}
+
+body.dark .bouton {
+    background-color: #233855;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        max-height: none;
+    }
+    
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    nav div {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        margin-left: 0;
+    }
+    nav a {
+        padding: 10px 16px;
+        font-size: 0.9em;
+    }
+    nav img {
+        width: 15vw;
+    }
+    nav p {
+        font-size: 1em;
+    }
+}
+
+
+/* ─── Modale détail apprenant (Tâche 3.1) ─────────────────────── */
+#modale {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modale-contenu {
+    background-color: #e5e5dc;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 480px;
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+#modalFermer {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: none;
+    border: none;
+    font-size: 1.8em;
+    cursor: pointer;
+    color: #26495c;
+    line-height: 1;
+}
+
+#modalFermer:hover {
+    opacity: 0.7;
+}
+
+#modalAvatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #26495c;
+}
+
+.modale-infos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.modale-infos p {
+    font-size: 1em;
+    color: #333;
+}
+
+body.dark .modale-contenu {
+    background-color: #2c2c3a;
+    color: rgb(209, 205, 205);
+}
+
+body.dark .modale-infos p {
+    color: rgb(209, 205, 205);
+}
+
+body.dark #modalFermer {
+    color: rgb(209, 205, 205);
+}

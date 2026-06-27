@@ -1,0 +1,87 @@
+section {
+    margin: 100px auto;
+    max-width: 600px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+div p {
+    font-weight: bold;
+}
+
+.ligne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.radios {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.radio-ligne {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.boutons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.boutons a {
+    text-decoration: none;
+    background-color: #26495c;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.boutons input {
+    text-decoration: none;
+    background-color: #26495c;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 15px;
+    border: none;
+}
+
+.boutons a:hover {
+    opacity: 0.8;
+}
+
+.boutons input:hover {
+    opacity: 0.8;
+}
+
+
+@media screen and (max-width: 768px) {
+    .ligne {
+        padding-left: 2%;
+        padding-right: 4%;
+    }
+    .boutons a, .boutons input {
+        padding: 8px 10px;
+        font-size: 0.85em;
+    }
+}

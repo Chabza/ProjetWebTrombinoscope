@@ -1,0 +1,103 @@
+h1 {
+    margin-bottom: 20px;
+    color: rgb(77, 76, 76);
+}
+
+h3 {
+    margin-bottom: 7px;
+    color: rgb(77, 76, 76);
+}
+
+h4 {
+    color: rgb(77, 76, 76);
+}
+
+.titre {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.para {
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: rgb(48, 47, 47);
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    padding: 20px 5%;
+    margin: 20px auto;
+    gap: 40px;
+    align-items: stretch;
+}
+
+.container {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.bloc {
+    border: none;
+    background-color: #26495c91;
+    color: white;
+    border-radius: 5px;
+    flex-grow: 1;
+    padding: 30px;
+    text-align: center; 
+}
+
+.retour {
+    background-color: #26495c;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-right: 20px;
+}
+
+.pageAccueil {
+    text-align: center;
+    padding: 30px;
+}
+
+.bloc ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.bloc a {
+    color: white;
+}
+
+.bloc a:hover {
+    color: black;
+}
+
+.retour:hover {
+    opacity: 0.8
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .container {
+        width: 100%; 
+    }
+    .retour {
+        font-size: 0.9em;
+        padding: 10px 15px;
+    }
+}

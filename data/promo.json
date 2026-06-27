@@ -1,0 +1,218 @@
+{
+  "promo": {
+    "nom": "EDWM2605FT",
+    "dateDebut": "04/05/2026",
+    "dateFin": "23/10/2026",
+    "description": "La promotion EDWM2605FT est une formation Développeur Web et Web Mobile, homologuée par l'État niveau 5 (Bac+2), dispensée en distanciel par l'ENI École Informatique. D'une durée de 8 mois dont 8 semaines en entreprise, elle réunit 23 apprenants aux profils variés, répartis dans différentes villes de France.",
+    "nbApprenants": 23
+  },
+  "apprenants": [
+    {
+      "id": 1,
+      "nom": "ALFONSO",
+      "prenom": "Guillaume",
+      "ville": "Soumoulou",
+      "avatar": "../images/avatar/ALFONSO Guillaume.jpg",
+      "anecdotes": "Allergique au KAHOOT (ou plus sérieusement Ancien cracheur de feu)",
+      "coordonnees": { "latitude": "43.2656541", "longitude": "-0.1884997" }
+    },
+    {
+      "id": 2,
+      "nom": "BEOUCHE",
+      "prenom": "Naïma",
+      "ville": "Metz",
+      "avatar": "../images/avatar/BEOUCHE Naima.jpg",
+      "anecdotes": "Aventurière dans l'âme, je voyage comme Lara Croft… mais version vacances et sans danger.",
+      "coordonnees": { "latitude": "49.1191", "longitude": "6.1727" }
+    },
+    {
+      "id": 3,
+      "nom": "BOUAZZA",
+      "prenom": "Charlotte",
+      "ville": "Lyon",
+      "avatar": "../images/avatar/BOUAZZA Charlotte.jpg",
+      "anecdotes": "Fan ultime de Buffy contre les Vampires",
+      "coordonnees": { "latitude": "45.7578137", "longitude": "4.8320114" }
+    },
+    {
+      "id": 4,
+      "nom": "CELESTINI",
+      "prenom": "David",
+      "ville": "Solgne",
+      "avatar": "../images/avatar/CELESTINI David.jpg",
+      "anecdotes": "On m'appelle Sinpou",
+      "coordonnees": { "latitude": "48.9653511", "longitude": "6.2953959" }
+    },
+    {
+      "id": 5,
+      "nom": "CHABAB",
+      "prenom": "Hanae",
+      "ville": "Romans-sur-Isère",
+      "avatar": "../images/avatar/CHABAB Hanae.jpg",
+      "anecdotes": "ma photo est générée par l'ia",
+      "coordonnees": { "latitude": "45.0458886", "longitude": "5.0528681" }
+    },
+    {
+      "id": 6,
+      "nom": "CHABOT",
+      "prenom": "Kendal",
+      "ville": "Challans",
+      "avatar": "../images/avatar/CHABOT Kendal.jpg",
+      "anecdotes": "Est devenu oncle à 10 ans",
+      "coordonnees": { "latitude": "46.8436", "longitude": "-1.8749" }
+    },
+    {
+      "id": 7,
+      "nom": "CHADLI",
+      "prenom": "Saadia",
+      "ville": "Marseille",
+      "avatar": "../images/avatar/CHADLI Saadia.jpg",
+      "anecdotes": "victime de relooking par ses nièces",
+      "coordonnees": { "latitude": "43.296482", "longitude": "5.372661" }
+    },
+    {
+      "id": 8,
+      "nom": "CHIKH-MILOUD",
+      "prenom": "Rahmoun",
+      "ville": "Bourges",
+      "avatar": "../images/avatar/CHIKH-MILOUD Rahmoun.jpg",
+      "anecdotes": "Comme vous voyez sur la photo j'me prends pour Maitre Gims ou DJ Snake",
+      "coordonnees": { "latitude": "47.0810", "longitude": "2.3988" }
+    },
+    {
+      "id": 9,
+      "nom": "DEVOS ARGUELLO",
+      "prenom": "Romina",
+      "ville": "",
+      "avatar": "../images/avatar/DEVOS ARGUELLO Romina.jpg",
+      "anecdotes": "",
+      "coordonnees": { "latitude": "", "longitude": "" }
+    },
+    {
+      "id": 10,
+      "nom": "DURAND",
+      "prenom": "Noah",
+      "ville": "Laval",
+      "avatar": "../images/avatar/DURAND Noah.jpg",
+      "anecdotes": "Fan inconditionnel de Sade",
+      "coordonnees": { "latitude": "48.0706687", "longitude": "-0.7734022" }
+    },
+    {
+      "id": 11,
+      "nom": "EL KILANI",
+      "prenom": "Karima",
+      "ville": "Paris",
+      "avatar": "../images/avatar/EL KILANI Karima.jpg",
+      "anecdotes": "Aimait bien imiter Hermione Granger quand elle était enfant.",
+      "coordonnees": { "latitude": "48.862725", "longitude": "2.287592" }
+    },
+    {
+      "id": 12,
+      "nom": "FASOLIN",
+      "prenom": "Camille",
+      "ville": "Arvert",
+      "avatar": "../images/avatar/FASOLIN Camille.jpg",
+      "anecdotes": "Quand j'étais en CE1, je lisais Tom-tom et nana et dans une histoire ils disaient que ceux qui avaient des lunettes étaient intelligents. Du coup, je voulais des lunettes et j'ai poussé le truc tellement loin que ma mère m'a emmené chez l'ophtalmo car je disais ne rien voir ^^'",
+      "coordonnees": { "latitude": "45.7409118", "longitude": "-1.1266705" }
+    },
+    {
+      "id": 13,
+      "nom": "GHELAN",
+      "prenom": "Artiom",
+      "ville": "Clichy-sous-Bois",
+      "avatar": "../images/avatar/GHELAN Artiom.jpg",
+      "anecdotes": "Je réfléchis tellement avant de choisir un film qu'il est déjà l'heure de dormir.",
+      "coordonnees": { "latitude": "48.907", "longitude": "2.541" }
+    },
+    {
+      "id": 14,
+      "nom": "LABIDI",
+      "prenom": "Yousra",
+      "ville": "Toulon",
+      "avatar": "../images/avatar/LABIDI Yousra.jpg",
+      "anecdotes": "Rejoint la réunion une heure après",
+      "coordonnees": { "latitude": "43.1257311", "longitude": "5.9304919" }
+    },
+    {
+      "id": 15,
+      "nom": "LAFLUTTE",
+      "prenom": "Julien",
+      "ville": "Tourcoing",
+      "avatar": "../images/avatar/LAFLUTTE Julien.jpg",
+      "anecdotes": "A essayé le Vademecum fluor et plante une fois, a vomi.",
+      "coordonnees": { "latitude": "50.7235038", "longitude": "3.1605714" }
+    },
+    {
+      "id": 16,
+      "nom": "LAFOUASSE",
+      "prenom": "Valerie",
+      "ville": "Surgères",
+      "avatar": "../images/avatar/LAFOUASSE Valerie.jpg",
+      "anecdotes": "j'adore cuisiner et j'ai un petit faible pour le chocolat, à tel point que chaque année je fais un atelier chocolat avec des amis, et on prépare des kilos de rochers pralinés et autres bouchées !",
+      "coordonnees": { "latitude": "46.1070923", "longitude": "-0.7520508" }
+    },
+    {
+      "id": 17,
+      "nom": "MEGUIRA",
+      "prenom": "Melanie",
+      "ville": "Vaulx-en-Velin",
+      "avatar": "../images/avatar/MEGUIRA Melanie.jpg",
+      "anecdotes": "J'ai failli être aveugle après avoir reçu une fourchette dans l'œil à 6 ans mdrrrr",
+      "coordonnees": { "latitude": "45.7784255", "longitude": "4.9206153" }
+    },
+    {
+      "id": 18,
+      "nom": "MEZABER",
+      "prenom": "Melina",
+      "ville": "Limoux",
+      "avatar": "../images/avatar/MEZABER Melina.jpg",
+      "anecdotes": "Tout le temps en retard mais je me soigne !",
+      "coordonnees": { "latitude": "43.056944", "longitude": "2.218611" }
+    },
+    {
+      "id": 19,
+      "nom": "MILLAUD",
+      "prenom": "Lionel",
+      "ville": "Bordeaux",
+      "avatar": "../images/avatar/MILLAUD Lionel.jpg",
+      "anecdotes": "Je suis DJ à côté, avec encore peu de dates pour le moment ça se développe lentement mais surement j'espère",
+      "coordonnees": { "latitude": "44.84151", "longitude": "-0.56997" }
+    },
+    {
+      "id": 20,
+      "nom": "PARENT-BERT",
+      "prenom": "Kentin",
+      "ville": "Bourgoin-Jallieu",
+      "avatar": "../images/avatar/PARENT-BERT Kentin.jpg",
+      "anecdotes": "Se plaint de ne plus avoir d'argent : achète un collector quand il sort. « Ça devrait prendre cinq minutes. » *Trois heures plus tard* « Bon, au moins j'ai appris quelque chose. »",
+      "coordonnees": { "latitude": "45.5860438", "longitude": "5.2772265" }
+    },
+    {
+      "id": 21,
+      "nom": "PIERRE",
+      "prenom": "Remi",
+      "ville": "Malansac",
+      "avatar": "../images/avatar/PIERRE Remi.jpg",
+      "anecdotes": "Cuisinier hors pair qui mange des pâtes au beurre. Se déguise en sorcière pour halloween.",
+      "coordonnees": { "latitude": "47.67745", "longitude": "-2.29494" }
+    },
+    {
+      "id": 22,
+      "nom": "RIMIZE",
+      "prenom": "Yoan",
+      "ville": "Paris",
+      "avatar": "../images/avatar/RIMIZE Yoan.jpg",
+      "anecdotes": "Petit je rêvais d'être pilote d'avion.. N'ayant pas fait les études pour, je voyage en éco et non dans le cockpit !",
+      "coordonnees": { "latitude": "48.8566", "longitude": "2.3522" }
+    },
+    {
+      "id": 23,
+      "nom": "SICOT",
+      "prenom": "Gatien",
+      "ville": "Aurillac",
+      "avatar": "../images/avatar/SICOT Gatien.jpg",
+      "anecdotes": "N'a pas de photo de lui. Regarde l'intégrale de Rick and Morty en boucle.",
+      "coordonnees": { "latitude": "44.9285441", "longitude": "2.4433101" }
+    }
+  ]
+}
